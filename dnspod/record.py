@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-from base import api, common_params
+from base import api
 
 @api('Record.Create')
 def record_create(params=None):

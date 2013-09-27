@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-from base import api, common_params
+from base import api
 
 @api('Monitor.Listsubdomain')
 def monitor_list_sub_domain(params=None):
